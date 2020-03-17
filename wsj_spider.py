@@ -49,7 +49,7 @@ class WSJSpider(scrapy.Spider):
         date = response.css('time.article__timestamp::text').extract()
     
         if len(date)==0:
-            open_in_browser(response)
+            #open_in_browser(response)
             date = None
             article_dates.append(date)
         else:
