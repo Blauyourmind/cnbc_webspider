@@ -5,7 +5,7 @@
 3. Scrapy (Web Scrapping)
 
 # Contents
-- CSV files: scrapped news headlines from WSJ and CNBC starting at the end of Feb 2020.
+- CSV files: scraped news headlines from WSJ and CNBC starting at the end of Feb 2020.
 - .py files: scripts to run web spiders from the command line
 - analysis.ipynb files: contain some analysis and insights on the scrapped data
 
