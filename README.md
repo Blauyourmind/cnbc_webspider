@@ -7,7 +7,7 @@
 # Contents
 - CSV files: scraped news headlines from WSJ and CNBC starting at the end of Feb 2020.
 - .py files: scripts to run web spiders from the command line
-- analysis.ipynb files: contain some analysis and insights on the scrapped data
+- analysis.ipynb files: contain some analysis and insights on the scraped data
 
 # NOTE
 CSV files will be updated every 3-4 days with current data and analytics 
