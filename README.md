@@ -14,7 +14,7 @@ pip install scrapy
 # Getting Started
 1. Clone this repository onto your computer
 ```
-git clone https://github.com/Blauyourmind/news_scrapy.git
+git clone https://github.com/Blauyourmind/cnbc_webspider.git
 ```
 2. Make sure all the above depencies are install on your local machine
 3. Run the cnbc spider from the command line
