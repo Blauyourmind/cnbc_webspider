@@ -1,4 +1,7 @@
-# WSJ and CNBC News Headline Analysis: COVID-19
+# CNBC News Headline Web Scraper and COVID-19 Analysis
+
+# Description
+This repository contains code for a web scraper/spider to scrape news headlines from the front page of CNBC. Additionally, this repository contains some analysis for headlines containing the word "coronavirus". 
 
 # Dependencies
 1. Python 3.7+
