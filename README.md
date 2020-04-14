@@ -1,15 +1,27 @@
 # WSJ and CNBC News Headline Analysis: COVID-19
+
 # Dependencies
 1. Python 3.7+
 2. Pandas (Data Analysis)
+```
+pip install pandas
+```
 3. Scrapy (Web Scrapping)
+```
+pip install scrapy 
+```
 
-# Contents
-- CSV files: scraped news headlines from WSJ and CNBC starting at the end of Feb 2020.
-- .py files: scripts to run web spiders from the command line
-- analysis.ipynb files: contain some analysis and insights on the scraped data
+# Getting Started
+1. Clone this repository onto your computer
+```
+git clone https://github.com/Blauyourmind/news_scrapy.git
+```
+2. Make sure all the above depencies are install on your local machine
+3. Run the cnbc spider from the command line
+```
+python3 cnbc_spider.py OR ./cnbc_spider.py
+```
+4. Data will be saved to the cnbc_news.csv file which you can use for further analysis
 
-# NOTE
-CSV files will be updated every 3-4 days with current data and analytics 
 
 
