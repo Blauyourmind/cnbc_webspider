@@ -71,7 +71,7 @@ df['publish_date'] = pd.to_datetime(df['publish_date'],infer_datetime_format=Tru
 df.set_index('publish_date',inplace = True)
 
 # read old data df
-df_old = pd.read_csv('cnbc_news.csv',parse_dates=['publish_date'], index_col='publish_date')
+df_old = pd.read_csv('data/cnbc_news.csv',parse_dates=['publish_date'], index_col='publish_date')
 
 # concat new df to old df
 combined_df = pd.concat([df_old,df], axis=0)
@@ -83,9 +83,9 @@ combined_df.drop_duplicates(subset ="headline", keep = 'last', inplace = True)
 combined_df.sort_values(by='publish_date', inplace=True)
 
 # export file back to .CSV
-combined_df.to_csv('cnbc_news.csv')
+combined_df.to_csv('data/cnbc_news.csv')
 
 
 # read in and check new combined dataset from wsi_news.csv 
-full_df = pd.read_csv('cnbc_news.csv',parse_dates=['publish_date'], index_col='publish_date')
+full_df = pd.read_csv('data/cnbc_news.csv',parse_dates=['publish_date'], index_col='publish_date')
 print(full_df)
