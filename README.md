@@ -13,6 +13,22 @@ pip install pandas
 ```
 pip install scrapy 
 ```
+4. numpy 
+```
+pip install numpy 
+```
+5. nltk
+```
+pip install nltk 
+```
+6. wordcloud
+```
+pip install wordcloud
+```
+7. matplotlib
+```
+pip install matplotlib
+```
 
 # Getting Started
 1. Clone this repository onto your computer
@@ -24,7 +40,10 @@ git clone https://github.com/Blauyourmind/cnbc_webspider.git
 ```
 python3 cnbc_spider.py
 ```
-4. Data will be saved to the cnbc_news.csv file which you can use for further analysis
+4. Data will be saved to the cnbc_news.csv file inside the "data" folder which you can use for further analysis
+
+# External Data
+VIX data collected from Yahoo Finance 
 
 
 
