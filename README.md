@@ -5,33 +5,15 @@ This repository contains code for a web scraper/spider to scrape news headlines 
 
 # Dependencies
 1. Python 3.7+
-2. Pandas (Data Analysis)
 ```
-pip install pandas
-```
-3. Scrapy (Web Scrapping)
-```
-pip install scrapy 
-```
-4. numpy 
-```
-pip install numpy 
-```
-5. nltk
-```
-pip install nltk 
-```
-6. wordcloud
-```
-pip install wordcloud
-```
-7. matplotlib
-```
-pip install matplotlib
-```
-8. Scipy Stats
-```
-pip install scipy
+pip install pandas;
+pip install scrapy;
+pip install numpy;
+pip install nltk;
+pip install wordcloud;
+pip install matplotlib;
+pip install scipy;
+pip install sklearn;
 ```
 
 # Getting Started
