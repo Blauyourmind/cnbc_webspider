@@ -29,6 +29,10 @@ pip install wordcloud
 ```
 pip install matplotlib
 ```
+8. Scipy Stats
+```
+pip install scipy
+```
 
 # Getting Started
 1. Clone this repository onto your computer
