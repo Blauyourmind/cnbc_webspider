@@ -27,17 +27,13 @@ class CNBCSpider(scrapy.Spider):
         
         # get article headline
         headline = response.css('h1.ArticleHeader-headline::text').extract()
-        if headline != []:
-            headlines.append(headline)
         
         # get article dates
-        date = response.css('div.ArticleHeader-time > time::text').extract()
-        if date != []:
-            dates.append(date) 
+        date = response.css('time[data-testid="published-timestamp"]::text').extract()
         
-        # get article description
-        # description = response.css('ul')
-        # descriptions.append(description)
+        if len(headline) != 0 and len(date) != 0 :
+            headlines.append(headline)
+            dates.append(date)
 
 
 # initiate arrays to store data from the web crawler 
