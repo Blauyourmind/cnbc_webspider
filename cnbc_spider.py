@@ -3,10 +3,8 @@ import requests
 import scrapy
 import pandas as pd
 import re
-from bs4 import BeautifulSoup
 from scrapy.crawler import CrawlerProcess
-from scrapy.utils.response import open_in_browser
-
+import scrapydo
 
 # Web Crawler Class
 class CNBCSpider(scrapy.Spider):
@@ -18,7 +16,7 @@ class CNBCSpider(scrapy.Spider):
         yield scrapy.Request(url= url, callback= self.parse_front_page) 
     
     def parse_front_page(self, response):
-        headlines = [x for x in response.css('a::attr(href)').extract() if 'cnbc.com/2020/' in x]
+        headlines = [x for x in response.css('a::attr(href)').extract() if 'cnbc.com/2020/' in x or 'cnbc.com/2021/' in x]
 
         for link in headlines:
             yield response.follow(url=link, callback= self.parse_article)
@@ -38,7 +36,6 @@ class CNBCSpider(scrapy.Spider):
 
 # initiate arrays to store data from the web crawler 
 headlines, descriptions, dates = [], [], []
-
 
 
 # Running the Spider 
