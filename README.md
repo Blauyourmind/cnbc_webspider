@@ -2,7 +2,7 @@
 ## Work in Progress
 
 # Description
-This repository contains code for a web scraper to scrape news headlines from the front page of CNBC. Also, this repository contains some analysis for headlines containing the word "coronavirus" including coronavirus correlation with the VIX. The CNBC news headline dataset contains over 100K headlines collected between 2019-2021. 
+This repository contains code for a web scraper to scrape news headlines from the front page of CNBC. Also, this repository contains some analysis for headlines containing the word "coronavirus" including coronavirus correlation with the VIX. The CNBC news headline dataset contains over 100K headlines collected between 2020-2021. 
 
 # Dependencies
 1. Python 3.7+
