@@ -36,7 +36,7 @@ queuelib==1.5.0
 regex==2020.7.14
 scikit-learn==0.23.2
 scipy==1.5.2
-Scrapy==2.5.1
+Scrapy==2.6.2
 service-identity==18.1.0
 six==1.15.0
 sklearn==0.0
