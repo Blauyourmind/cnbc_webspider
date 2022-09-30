@@ -13,7 +13,7 @@ incremental==17.5.0
 itemadapter==0.1.0
 itemloaders==1.0.2
 jmespath==0.10.0
-joblib==0.16.0
+joblib==1.2.0
 kiwisolver==1.2.0
 lxml==4.6.3
 matplotlib==3.3.1
